@@ -1,6 +1,8 @@
 FROM ${TAG}
 LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
 
+RUN echo "pass"
+
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         apt-utils \
