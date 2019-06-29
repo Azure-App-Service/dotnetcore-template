@@ -1,0 +1,4 @@
+FROM ${tag}
+LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
+
+RUN dotnet new webapp && dotnet run
