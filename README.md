@@ -1,3 +1,5 @@
+archived in favour of https://github.com/Azure-App-Service/ImageBuilder
+
 # Azure App Service Linux DotNetCore image templates
 
 These are the templates used to the DotNetCore images
